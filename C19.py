@@ -21,4 +21,4 @@ if scale == "Countries":
 	countryID = int(input("\nCountryID # : "))
 	print("\nCountryCode\nSlug\nNewConfirmed\nTotalConfirmed\nNewDeaths\nTotalDeaths\nNewRecovered\nTotalRecovered\n")
 	info_request = str(input("Information Request: "))
-	print("\n" + str(info["Countries"][countryID][info_request]))
+	print("\n" + str(info["Countries"][countryID][info_request]) + "\n")
